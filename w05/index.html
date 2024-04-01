@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web04_project</title>
+        <style>
+            #head {
+                color: red;
+                text-decoration: none;
+                text-align: center;
+                font-size: 45px;
+            }
+            #subtitle {
+                font-size: 11pt;
+                text-align: center;
+                text-decoration: underline;
+            }
+            .header {
+                color: red;
+            }
+            #name {
+                color: blue;
+                text-align: right;
+            }
+            .search_page {
+                font-size: xx-large;
+            }
+            #link {
+                color:#00ff9d;
+                text-decoration: none;
+                font-size: 30px;
+                text-align: justify;
+                
+            }
+            .login {
+                text-align: right;
+            }
+            #login {
+                color:hwb(308 0% 0%);
+                font-size: 20pt;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <a href="pr.html" id="head">과제용 웹페이지</a>
+            <p style="font-size: 11pt; text-align: center;"><img src=search.png></p>
+            <p id="subtitle">수업중에 배운것들 돌아보기</p>
+            <p id="name">2019100600 이준호</p>
+        </div>
+        <div class="login">
+            <p>
+                <a href="https://ljh947.github.io/my-first-web-site/w04/1.html" id="login" >로그인</a>
+            </p>
+        </div>
+        <br>
+        <div class="search_page">
+            <label for="search"><b>Search</b></label>
+            <form id="searchform" action="https://ljh947.github.io/my-first-web-site\w03\index.html" method="get">
+                <input type="search" name="q" autocapitalize="검색" placeholder="검색" title="검색" aria-label="검색">
+                <button type="submit">검색</button>
+                <button type="reset">초기화</button>
+            </form>
+            <ol>
+                <li><a id="link" href="https://ljh947.github.io/my-first-web-site\w03\1.html">Organic chemistry</a></li>
+                <li><a id="link" href="https://ljh947.github.io/my-first-web-site\w03\2.html">Inorganic chemistry</a></li>
+                <li><a id="link" href="https://ljh947.github.io/my-first-web-site\w03\3.html">Quantum chemistry</a></li>
+            </ol>
+        </div>
+    </body>
+</html>
